@@ -7,20 +7,57 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomeView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView{
+            ZStack{
+                Image("Background")
+                    .ignoresSafeArea()
+                
+                VStack {
+                    Spacer()
+                    Image("logo")
+                        .padding(.bottom, 250.0)
+                    // Buttons for switching UI
+                    
+                    
+                    NavigationLink(destination: BoulderingView()) {
+                        Image("Bouldering_button")
+                    }
+                    //Button(action: {
+                        // Open up bouldering page
+                    //}, label: {
+                    //    Image("Bouldering_button")
+                    //})
+                    
+                    Button(action: {
+                         //Open up Weightligting page
+                    }, label:{
+                       Image("Weight_button")
+                    }).padding(20)
+                    
+                    Spacer()
+                }
+            }
         }
-        .padding()
     }
 }
 
+
+
+
+struct ContentView2: View{
+    var body: some View{
+        
+        Text("Second Page")
+    }
+}
+
+
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        HomeView()
+        ContentView2()
     }
 }

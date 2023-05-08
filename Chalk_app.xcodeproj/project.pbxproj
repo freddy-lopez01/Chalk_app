@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EFF3B32B29EFA8F200DD7561 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF3B32A29EFA8F200DD7561 /* Storyboard.storyboard */; };
+		EFF3B32D29F1D0C900DD7561 /* BoulderingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF3B32C29F1D0C800DD7561 /* BoulderingView.swift */; };
+		EFF3B32F29F1DAC500DD7561 /* WeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF3B32E29F1DAC500DD7561 /* WeightView.swift */; };
 		EFFA184C29ECA9AB00F9C51B /* Chalk_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFA184B29ECA9AB00F9C51B /* Chalk_appApp.swift */; };
 		EFFA184E29ECA9AB00F9C51B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFA184D29ECA9AB00F9C51B /* ContentView.swift */; };
 		EFFA185029ECA9AB00F9C51B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFFA184F29ECA9AB00F9C51B /* Assets.xcassets */; };
 		EFFA185329ECA9AB00F9C51B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFFA185229ECA9AB00F9C51B /* Preview Assets.xcassets */; };
+		EFFA185B29ECAC9000F9C51B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFFA185A29ECAC9000F9C51B /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EFF3B32A29EFA8F200DD7561 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		EFF3B32C29F1D0C800DD7561 /* BoulderingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoulderingView.swift; sourceTree = "<group>"; };
+		EFF3B32E29F1DAC500DD7561 /* WeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightView.swift; sourceTree = "<group>"; };
 		EFFA184829ECA9AB00F9C51B /* Chalk_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chalk_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFFA184B29ECA9AB00F9C51B /* Chalk_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chalk_appApp.swift; sourceTree = "<group>"; };
 		EFFA184D29ECA9AB00F9C51B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EFFA184F29ECA9AB00F9C51B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFFA185229ECA9AB00F9C51B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFFA185A29ECAC9000F9C51B /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +59,14 @@
 		EFFA184A29ECA9AB00F9C51B /* Chalk_app */ = {
 			isa = PBXGroup;
 			children = (
+				EFF3B32A29EFA8F200DD7561 /* Storyboard.storyboard */,
 				EFFA184B29ECA9AB00F9C51B /* Chalk_appApp.swift */,
 				EFFA184D29ECA9AB00F9C51B /* ContentView.swift */,
+				EFF3B32C29F1D0C800DD7561 /* BoulderingView.swift */,
+				EFF3B32E29F1DAC500DD7561 /* WeightView.swift */,
 				EFFA184F29ECA9AB00F9C51B /* Assets.xcassets */,
 				EFFA185129ECA9AB00F9C51B /* Preview Content */,
+				EFFA185A29ECAC9000F9C51B /* Launch Screen.storyboard */,
 			);
 			path = Chalk_app;
 			sourceTree = "<group>";
@@ -125,6 +137,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFFA185B29ECAC9000F9C51B /* Launch Screen.storyboard in Resources */,
+				EFF3B32B29EFA8F200DD7561 /* Storyboard.storyboard in Resources */,
 				EFFA185329ECA9AB00F9C51B /* Preview Assets.xcassets in Resources */,
 				EFFA185029ECA9AB00F9C51B /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +153,8 @@
 			files = (
 				EFFA184E29ECA9AB00F9C51B /* ContentView.swift in Sources */,
 				EFFA184C29ECA9AB00F9C51B /* Chalk_appApp.swift in Sources */,
+				EFF3B32F29F1DAC500DD7561 /* WeightView.swift in Sources */,
+				EFF3B32D29F1D0C900DD7561 /* BoulderingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
