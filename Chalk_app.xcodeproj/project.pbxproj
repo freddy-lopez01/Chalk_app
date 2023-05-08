@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF3187532A08AE49002B4235 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3187522A08AE49002B4235 /* SideMenuView.swift */; };
+		EF3187552A08AE63002B4235 /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3187542A08AE63002B4235 /* SideMenuHeaderView.swift */; };
+		EF3187572A08AE7F002B4235 /* SideMenuOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3187562A08AE7F002B4235 /* SideMenuOptionView.swift */; };
+		EF3187592A08AE9D002B4235 /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3187582A08AE9D002B4235 /* SideMenuViewModel.swift */; };
 		EFF3B32B29EFA8F200DD7561 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF3B32A29EFA8F200DD7561 /* Storyboard.storyboard */; };
 		EFF3B32D29F1D0C900DD7561 /* BoulderingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF3B32C29F1D0C800DD7561 /* BoulderingView.swift */; };
 		EFF3B32F29F1DAC500DD7561 /* WeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF3B32E29F1DAC500DD7561 /* WeightView.swift */; };
@@ -18,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF3187502A0895CC002B4235 /* Chalk-app-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Chalk-app-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EF3187522A08AE49002B4235 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		EF3187542A08AE63002B4235 /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
+		EF3187562A08AE7F002B4235 /* SideMenuOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionView.swift; sourceTree = "<group>"; };
+		EF3187582A08AE9D002B4235 /* SideMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
 		EFF3B32A29EFA8F200DD7561 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		EFF3B32C29F1D0C800DD7561 /* BoulderingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoulderingView.swift; sourceTree = "<group>"; };
 		EFF3B32E29F1DAC500DD7561 /* WeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightView.swift; sourceTree = "<group>"; };
@@ -40,6 +49,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF3187512A08AD86002B4235 /* Boudlering_Interface */ = {
+			isa = PBXGroup;
+			children = (
+				EFF3B32C29F1D0C800DD7561 /* BoulderingView.swift */,
+				EF3187522A08AE49002B4235 /* SideMenuView.swift */,
+				EF3187542A08AE63002B4235 /* SideMenuHeaderView.swift */,
+				EF3187562A08AE7F002B4235 /* SideMenuOptionView.swift */,
+				EF3187582A08AE9D002B4235 /* SideMenuViewModel.swift */,
+			);
+			path = Boudlering_Interface;
+			sourceTree = "<group>";
+		};
 		EFFA183F29ECA9AB00F9C51B = {
 			isa = PBXGroup;
 			children = (
@@ -59,10 +80,11 @@
 		EFFA184A29ECA9AB00F9C51B /* Chalk_app */ = {
 			isa = PBXGroup;
 			children = (
+				EF3187512A08AD86002B4235 /* Boudlering_Interface */,
+				EF3187502A0895CC002B4235 /* Chalk-app-Info.plist */,
 				EFF3B32A29EFA8F200DD7561 /* Storyboard.storyboard */,
 				EFFA184B29ECA9AB00F9C51B /* Chalk_appApp.swift */,
 				EFFA184D29ECA9AB00F9C51B /* ContentView.swift */,
-				EFF3B32C29F1D0C800DD7561 /* BoulderingView.swift */,
 				EFF3B32E29F1DAC500DD7561 /* WeightView.swift */,
 				EFFA184F29ECA9AB00F9C51B /* Assets.xcassets */,
 				EFFA185129ECA9AB00F9C51B /* Preview Content */,
@@ -151,8 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF3187592A08AE9D002B4235 /* SideMenuViewModel.swift in Sources */,
+				EF3187572A08AE7F002B4235 /* SideMenuOptionView.swift in Sources */,
 				EFFA184E29ECA9AB00F9C51B /* ContentView.swift in Sources */,
 				EFFA184C29ECA9AB00F9C51B /* Chalk_appApp.swift in Sources */,
+				EF3187532A08AE49002B4235 /* SideMenuView.swift in Sources */,
+				EF3187552A08AE63002B4235 /* SideMenuHeaderView.swift in Sources */,
 				EFF3B32F29F1DAC500DD7561 /* WeightView.swift in Sources */,
 				EFF3B32D29F1D0C900DD7561 /* BoulderingView.swift in Sources */,
 			);
@@ -286,9 +312,9 @@
 				DEVELOPMENT_TEAM = 824BCPBNRV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Chalk-app-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,9 +341,9 @@
 				DEVELOPMENT_TEAM = 824BCPBNRV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Chalk-app-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

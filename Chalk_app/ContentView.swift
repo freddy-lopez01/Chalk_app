@@ -24,17 +24,9 @@ struct HomeView: View {
                     NavigationLink(destination: BoulderingView()) {
                         Image("Bouldering_button")
                     }
-                    //Button(action: {
-                        // Open up bouldering page
-                    //}, label: {
-                    //    Image("Bouldering_button")
-                    //})
-                    
-                    Button(action: {
-                         //Open up Weightligting page
-                    }, label:{
-                       Image("Weight_button")
-                    }).padding(20)
+                    NavigationLink(destination: WeightView()) {
+                        Image("Weight_button")
+                    }
                     
                     Spacer()
                 }
@@ -46,18 +38,8 @@ struct HomeView: View {
 
 
 
-struct ContentView2: View{
-    var body: some View{
-        
-        Text("Second Page")
-    }
-}
-
-
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView()
-        ContentView2()
     }
 }
