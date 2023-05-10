@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 struct SideMenuOptionView: View {
     var body: some View {
         HStack (spacing: 16){

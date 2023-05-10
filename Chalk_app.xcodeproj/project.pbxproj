@@ -61,6 +61,14 @@
 			path = Boudlering_Interface;
 			sourceTree = "<group>";
 		};
+		EFA354432A0B0BE700165486 /* Weight_Interface */ = {
+			isa = PBXGroup;
+			children = (
+				EFF3B32E29F1DAC500DD7561 /* WeightView.swift */,
+			);
+			path = Weight_Interface;
+			sourceTree = "<group>";
+		};
 		EFFA183F29ECA9AB00F9C51B = {
 			isa = PBXGroup;
 			children = (
@@ -85,7 +93,7 @@
 				EFF3B32A29EFA8F200DD7561 /* Storyboard.storyboard */,
 				EFFA184B29ECA9AB00F9C51B /* Chalk_appApp.swift */,
 				EFFA184D29ECA9AB00F9C51B /* ContentView.swift */,
-				EFF3B32E29F1DAC500DD7561 /* WeightView.swift */,
+				EFA354432A0B0BE700165486 /* Weight_Interface */,
 				EFFA184F29ECA9AB00F9C51B /* Assets.xcassets */,
 				EFFA185129ECA9AB00F9C51B /* Preview Content */,
 				EFFA185A29ECAC9000F9C51B /* Launch Screen.storyboard */,
