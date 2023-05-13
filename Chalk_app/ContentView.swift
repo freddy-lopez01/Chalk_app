@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct HomeView: View {
+    @State private var BoulderingViewState: Bool = false // created a State var in order to keep track of which page the user is currently in the application
+        
+        //Still gotta figure out just how this can be achieved while using the NavigationLink() format of navigation
     var body: some View {
         NavigationView{
             ZStack{

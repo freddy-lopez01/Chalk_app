@@ -44,9 +44,19 @@ struct BoulderingView_Previews: PreviewProvider {
 struct BoulderHomeView: View {
     var body: some View {
         ZStack{
-            Color(.white)
-            
-            Text("Hello, testiing")
+            VStack{
+                NavigationLink {
+                    LogBetaHomeView()
+                    
+                } label: {
+                    Text("Log Beta")
+                        .frame(width: 200, height: 50)
+                        .background(Color.gray)
+                        .foregroundColor(Color.white)
+                        .cornerRadius(15)
+                }
+
+            }
         }
         
         .navigationBarTitleDisplayMode(.inline)

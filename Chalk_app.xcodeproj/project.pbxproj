@@ -11,6 +11,8 @@
 		EF3187552A08AE63002B4235 /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3187542A08AE63002B4235 /* SideMenuHeaderView.swift */; };
 		EF3187572A08AE7F002B4235 /* SideMenuOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3187562A08AE7F002B4235 /* SideMenuOptionView.swift */; };
 		EF3187592A08AE9D002B4235 /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3187582A08AE9D002B4235 /* SideMenuViewModel.swift */; };
+		EFA354452A0F554100165486 /* SearchWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA354442A0F554100165486 /* SearchWorkoutView.swift */; };
+		EFA354482A0F56DB00165486 /* LogBetaHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA354472A0F56DB00165486 /* LogBetaHomeView.swift */; };
 		EFF3B32B29EFA8F200DD7561 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF3B32A29EFA8F200DD7561 /* Storyboard.storyboard */; };
 		EFF3B32D29F1D0C900DD7561 /* BoulderingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF3B32C29F1D0C800DD7561 /* BoulderingView.swift */; };
 		EFF3B32F29F1DAC500DD7561 /* WeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF3B32E29F1DAC500DD7561 /* WeightView.swift */; };
@@ -27,6 +29,8 @@
 		EF3187542A08AE63002B4235 /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
 		EF3187562A08AE7F002B4235 /* SideMenuOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionView.swift; sourceTree = "<group>"; };
 		EF3187582A08AE9D002B4235 /* SideMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
+		EFA354442A0F554100165486 /* SearchWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchWorkoutView.swift; sourceTree = "<group>"; };
+		EFA354472A0F56DB00165486 /* LogBetaHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogBetaHomeView.swift; sourceTree = "<group>"; };
 		EFF3B32A29EFA8F200DD7561 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		EFF3B32C29F1D0C800DD7561 /* BoulderingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoulderingView.swift; sourceTree = "<group>"; };
 		EFF3B32E29F1DAC500DD7561 /* WeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightView.swift; sourceTree = "<group>"; };
@@ -52,6 +56,7 @@
 		EF3187512A08AD86002B4235 /* Boudlering_Interface */ = {
 			isa = PBXGroup;
 			children = (
+				EFA354462A0F56B500165486 /* LogBetaInterface */,
 				EFF3B32C29F1D0C800DD7561 /* BoulderingView.swift */,
 				EF3187522A08AE49002B4235 /* SideMenuView.swift */,
 				EF3187542A08AE63002B4235 /* SideMenuHeaderView.swift */,
@@ -65,8 +70,17 @@
 			isa = PBXGroup;
 			children = (
 				EFF3B32E29F1DAC500DD7561 /* WeightView.swift */,
+				EFA354442A0F554100165486 /* SearchWorkoutView.swift */,
 			);
 			path = Weight_Interface;
+			sourceTree = "<group>";
+		};
+		EFA354462A0F56B500165486 /* LogBetaInterface */ = {
+			isa = PBXGroup;
+			children = (
+				EFA354472A0F56DB00165486 /* LogBetaHomeView.swift */,
+			);
+			path = LogBetaInterface;
 			sourceTree = "<group>";
 		};
 		EFFA183F29ECA9AB00F9C51B = {
@@ -184,8 +198,10 @@
 				EF3187592A08AE9D002B4235 /* SideMenuViewModel.swift in Sources */,
 				EF3187572A08AE7F002B4235 /* SideMenuOptionView.swift in Sources */,
 				EFFA184E29ECA9AB00F9C51B /* ContentView.swift in Sources */,
+				EFA354452A0F554100165486 /* SearchWorkoutView.swift in Sources */,
 				EFFA184C29ECA9AB00F9C51B /* Chalk_appApp.swift in Sources */,
 				EF3187532A08AE49002B4235 /* SideMenuView.swift in Sources */,
+				EFA354482A0F56DB00165486 /* LogBetaHomeView.swift in Sources */,
 				EF3187552A08AE63002B4235 /* SideMenuHeaderView.swift in Sources */,
 				EFF3B32F29F1DAC500DD7561 /* WeightView.swift in Sources */,
 				EFF3B32D29F1D0C900DD7561 /* BoulderingView.swift in Sources */,
