@@ -20,7 +20,7 @@ struct SideMenuView: View {
                     .frame(height: 240)
                 
                 //Cell Items
-                ForEach(0..<4){ _ in
+                ForEach(0..<1){ _ in
                     SideMenuOptionView()
                     
                     

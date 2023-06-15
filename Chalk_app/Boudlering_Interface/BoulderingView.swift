@@ -50,7 +50,20 @@ struct BoulderHomeView: View {
                     
                 } label: {
                     Text("Log Beta")
-                        .frame(width: 200, height: 50)
+                        .bold()
+                        .frame(width: 200, height: 130)
+                        .background(Color.gray)
+                        .foregroundColor(Color.white)
+                        .cornerRadius(15)
+                }
+                .padding()
+                NavigationLink {
+                    BoulderLogView()
+                    
+                } label: {
+                    Text("Log Entries")
+                        .bold()
+                        .frame(width: 200, height: 130)
                         .background(Color.gray)
                         .foregroundColor(Color.white)
                         .cornerRadius(15)
