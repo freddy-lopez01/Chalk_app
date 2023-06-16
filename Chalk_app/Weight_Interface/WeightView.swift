@@ -148,11 +148,6 @@ struct WeightView: View {
         } else {
             _workouts = State(initialValue: [])
         }
-        
-        // Retrieve workoutName, numberOfReps and weight from UserDefaults
-       // _workoutName = State(initialValue: UserDefaults.standard.string(forKey: "workoutName") ?? "")
-        //_numberOfReps = State(initialValue: UserDefaults.standard.string(forKey: "numberOfReps") ?? "")
-        //_weight = State(initialValue: UserDefaults.standard.string(forKey: "weight") ?? "")
     }
 
     var body: some View {
@@ -203,7 +198,7 @@ struct WeightHomeView: View {
     
     var body: some View {
         ZStack {
-            Image("Weight_back")
+            //Image("Weight_back")
             VStack {
                 
                 Button {

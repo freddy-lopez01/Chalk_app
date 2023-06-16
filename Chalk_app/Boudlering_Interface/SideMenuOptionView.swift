@@ -11,9 +11,9 @@ import SwiftUI
 struct SideMenuOptionView: View {
     var body: some View {
         HStack (spacing: 16){
-            Image(systemName: "figure.climbing")
+            Image(systemName: "gear")
                 .frame(width: 24, height: 24)
-            Text("Log Beta")
+            Text("Settings")
                 .font(.system(size: 15, weight: .semibold))
             Spacer()
         }

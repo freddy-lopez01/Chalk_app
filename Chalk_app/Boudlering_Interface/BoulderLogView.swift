@@ -9,7 +9,38 @@ import SwiftUI
 
 struct BoulderLogView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            NavigationView{
+                Text("Climbs by V-grade")
+                    .bold()
+                    .frame(width: 300, height: 50)
+                    .background(Color.gray)
+                    .cornerRadius(15)
+                
+                
+                .navigationTitle("Logged Climbs")
+                .navigationBarTitleDisplayMode(.inline)
+                    
+            }
+            Text("V4")
+            .padding(.trailing, 300)
+            List{
+                Text("06/12/23 Dynamic")
+                Text("06/12/23 Dynamic")
+            }
+            Text("V5")
+            .padding(.trailing, 300)
+            List{
+                Text("06/14/23 Static")
+                Text("06/12/23 Dynamic")
+            }
+            
+            Text("V5")
+            .padding(.trailing, 300)
+            List{
+                Text("06/13/23 Dynamic")
+            }
+        }
     }
 }
 
